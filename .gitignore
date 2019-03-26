@@ -3,3 +3,4 @@
 /dist
 /adslproxy.egg-info
 /build
+.vscode/

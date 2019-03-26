@@ -38,7 +38,7 @@ class Sender():
         """
         try:
             headers = {
-                'Cookie':'openh5_uuid=169a3b30d43c8-068b95967384008-481d3500-fa000-169a3b30d43c8; terminal=i; w_actual_lat=31187016; w_actual_lng=121422285; w_latlng=0,0; w_utmz="utm_campaign=(direct)&utm_source=5000&utm_medium=(none)&utm_content=(none)&utm_term=(none)"; w_visitid=b741a8e4-1548-4fec-855a-224ca00535d6; _lxsdk_s=169b8900f14-469-004-eeb%7C%7C2; openh5_uuid=169a3b30d43c8-068b95967384008-481d3500-fa000-169a3b30d43c8; uuid=169a3b30d43c8-068b95967384008-481d3500-fa000-169a3b30d43c8; wm_order_channel=default; __mta=88962724.1553241813138.1553241813138.1553241813138.1; _lx_utm=utm_source%3DBaidu%26utm_medium%3Dorganic; _ga=GA1.3.1512793742.1553241789; _lxsdk=169a3b30d43c8-068b95967384008-481d3500-fa000-169a3b30d43c8; _lxsdk_cuid=169a3b30d43c8-068b95967384008-481d3500-fa000-169a3b30d43c8',
+                'Cookie':'uuid=1697b5d4f23c8-0d425bb2fadf7f3505-481d3500-fa000-1697b5d4f23c8; _lx_utm=utm_source%3D60066; _lxsdk=1697b5d4f23c8-0d425bb27f3505-481d3500-fa000-1697b5d4f23c8; _lxsdk_cuid=1697b5d4f23c8-0d425bb27f3505-481d3500-fa000-1697b5d4f23c8; wm_order_channel=default;w_actual_lat=31187016;w_actual_lng=121422285;w_latlng=0,0;',
                 'Accept':'application/json',
                 'Referer':'http://h5.waimai.meituan.com/waimai/mindex/home',
                 'Origin':'http://h5.waimai.meituan.com',
