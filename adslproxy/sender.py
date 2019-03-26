@@ -55,7 +55,7 @@ class Sender():
                 proxies=proxies, 
                 data=data,
                 timeout=TEST_TIMEOUT)
-            print(response.text)
+            print(response.status_code)
             if response.status_code == 200:
                 return True
         except (ConnectionError, ReadTimeout):
