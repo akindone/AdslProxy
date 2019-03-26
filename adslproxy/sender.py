@@ -50,7 +50,7 @@ class Sender():
                 'https': 'https://' + proxy
             }
             data='startIndex=0&sortId=0&multiFilterIds=&sliderSelectCode=&sliderSelectMin=&sliderSelectMax=&geoType=2&rankTraceId=&wm_latitude=31414902&wm_longitude=121342657&wm_actual_latitude=0&wm_actual_longitude=0&_token='
-            response = requests.post('http://i.waimai.meituan.com/openh5/homepage/poilist?_=&X-FOR-WITH=uSEjoE0N%2F0mcbzmXMjgjTn39etHmsuR7oNr2bwCs4CkTuvXG7%2B0KFFMSNRKv0uq8CHYi8dnuDmLo9u6BidiG5BfAAhqclb2AovMjTf2t5HT7kvjyQiRpPq3Dgg0KkKbrxX2vConslYMxxyjMNUiWgQ%3D%3D', 
+            response = requests.post('http://i.waimai.meituan.com/openh5/homepage/poilist?_=', 
                 headers=headers,
                 proxies=proxies, 
                 data=data,
