@@ -9,7 +9,7 @@ ADSL_ERROR_CYCLE = 5
 ADSL_BASH = 'adsl-stop;adsl-start'
 
 # 代理运行端口
-PROXY_PORT = 8888
+PROXY_PORT = 12306
 
 # 客户端唯一标识
 CLIENT_NAME = 'adsl1'
