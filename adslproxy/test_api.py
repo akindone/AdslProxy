@@ -20,6 +20,6 @@ def test_api():
         # proxies=proxies, 
         data=data,
         timeout=10000)
-    print(response.text)
+    print(response.status_code)
 
-test_api()
+# test_api()
